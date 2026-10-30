@@ -1,0 +1,13 @@
+{
+  "projectName": "LVIV GTA",
+  "apiBaseUrl": "",
+  "updateBaseUrl": "https://winstonbleyz.github.io/lvivgta-launcher",
+  "websiteUrl": "",
+  "discordUrl": "",
+  "rulesUrl": "",
+  "minMtaVersion": "1.6.0",
+  "heartbeatSeconds": 60,
+  "servers": [
+    { "name": "Центральна Україна #01", "host": "51.83.189.9", "port": 22003 }
+  ]
+}
