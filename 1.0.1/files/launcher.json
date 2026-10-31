@@ -1,0 +1,15 @@
+{
+  "projectName": "LVIV GTA",
+  "apiBaseUrl": "",
+  "updateBaseUrl": "https://winstonbleyz.github.io/lvivgta-launcher",
+  "websiteUrl": "",
+  "discordUrl": "",
+  "rulesUrl": "",
+  "forumUrl": "",
+  "cabinetUrl": "",
+  "minMtaVersion": "1.6.0",
+  "heartbeatSeconds": 60,
+  "servers": [
+    { "name": "LVIV GTA BETA", "host": "149.50.108.108", "port": 28570 }
+  ]
+}
