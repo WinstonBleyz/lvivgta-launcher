@@ -1,0 +1,27 @@
+{
+  "policyVersion": 1,
+  "consentVersion": 1,
+  "minMtaVersion": "1.6.0",
+  "processScanSeconds": 15,
+  "processSignatures": [],
+  "nameHints": [
+    { "pattern": "^cheat ?engine", "note": "редактор пам'яті" },
+    { "pattern": "^artmoney", "note": "редактор пам'яті" },
+    { "pattern": "^(x32dbg|x64dbg|ollydbg)\\.exe$", "note": "налагоджувач" }
+  ],
+  "neverFlag": [
+    "Discord.exe", "obs64.exe", "obs32.exe", "chrome.exe", "msedge.exe", "firefox.exe", "opera.exe", "brave.exe",
+    "steam.exe", "steamwebhelper.exe", "Telegram.exe", "Spotify.exe", "Teams.exe", "RTSS.exe", "MSIAfterburner.exe",
+    "NVIDIA Share.exe", "nvcontainer.exe", "RadeonSoftware.exe", "Narrator.exe", "Magnify.exe", "osk.exe", "explorer.exe",
+    "Multi Theft Auto.exe", "gta_sa.exe", "proxy_sa.exe", "LvivLauncher.exe"
+  ],
+  "gameFiles": [],
+  "forbiddenFiles": [
+    { "dir": "", "pattern": "*.asi", "level": "LOW", "note": "ASI-плагін" },
+    { "dir": "", "pattern": "d3d9.dll", "level": "LOW", "note": "сторонній графічний модуль; MTA додатково звітує про нього серверу" },
+    { "dir": "", "pattern": "dinput8.dll", "level": "LOW", "note": "завантажувач плагінів" },
+    { "dir": "cleo", "pattern": "*.cs", "level": "LOW", "note": "CLEO-скрипт" },
+    { "dir": "scripts", "pattern": "*.asi", "level": "LOW", "note": "ASI-плагін" },
+    { "dir": "modloader", "pattern": "*.asi", "level": "LOW", "note": "ASI-плагін" }
+  ]
+}
