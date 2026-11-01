@@ -5,9 +5,11 @@
   "websiteUrl": "",
   "discordUrl": "",
   "rulesUrl": "",
+  "forumUrl": "",
+  "cabinetUrl": "",
   "minMtaVersion": "1.6.0",
   "heartbeatSeconds": 60,
   "servers": [
-    { "name": "Центральна Україна #01", "host": "51.83.189.9", "port": 22003 }
+    { "name": "LVIV GTA BETA", "host": "149.50.108.108", "port": 28570 }
   ]
 }
