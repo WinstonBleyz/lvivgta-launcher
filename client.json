@@ -1,0 +1,10 @@
+{
+    "product":  "LvivGTA.Client",
+    "version":  "0.0.1",
+    "minVersion":  "0.0.0",
+    "url":  "https://github.com/WinstonBleyz/lvivgta-launcher/releases/download/client-v0.0.1/GTA_LVIV_BETA_Setup_0.0.1.exe",
+    "sha256":  "13bc9555429daa86471e3d60966b967a24236644eacb0cf8877f831c804b72e2",
+    "size":  182931968,
+    "notes":  "Перший реліз клієнта GTA LVIV BETA",
+    "published":  "2026-11-01T09:32:14Z"
+}
